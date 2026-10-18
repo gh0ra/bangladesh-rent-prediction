@@ -4,7 +4,7 @@ Predicts monthly apartment rent (BDT) in Dhaka and Chattogram from area, bedroom
 
 ## Data
 
-7,557 rent listings from bproperty ([Kaggle link]). After removing duplicates and impossible rows (e.g. 36 bedrooms, 31,500 sqft), 7,448 listings remain, covering 50 localities.
+7,557 rent listings from bproperty ([8K+ Property Listing Data in Bangladesh](https://www.kaggle.com/datasets/ijajdatanerd/property-listing-data-in-bangladesh)). After removing duplicates and impossible rows (e.g. 36 bedrooms, 31,500 sqft), 7,448 listings remain, covering 50 localities.
 
 To rerun: download the CSV, save it as `data/listings.csv`, and run the notebooks in order.
 
@@ -24,6 +24,8 @@ To rerun: download the CSV, save it as `data/listings.csv`, and run the notebook
 | HistGB (tuned)  | 0.899  | 5,298     |
 
 Median error is about 9.8% of the actual rent.
+
+Example: 1,200 sqft, 3 beds, 2 baths, Dhaka (Mirpur) → about 18,000 BDT/month.
 
 ## Findings
 
