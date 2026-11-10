@@ -14,7 +14,6 @@ charset-normalizer==3.5.2
 cloudpickle==3.1.2
 colorama==0.4.6
 comm==0.2.3
-contourpy==1.4.0
 cycler==0.12.1
 debugpy==1.8.22
 defusedxml==0.7.1
@@ -80,7 +79,6 @@ Pygments==2.21.0
 pyparsing==3.3.3
 python-dateutil==2.9.0.post0
 python-json-logger==4.2.0
-pywinpty==3.0.5
 PyYAML==6.0.3
 pyzmq==27.2.0
 referencing==0.37.0
@@ -110,3 +108,5 @@ webcolors==25.10.0
 webencodings==0.6.1
 websocket-client==1.9.2
 widgetsnbextension==4.0.16
+shap
+streamlit
