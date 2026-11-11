@@ -2,6 +2,13 @@
 
 Predicts monthly apartment rent (BDT) in Dhaka and Chattogram from area, bedrooms, bathrooms, property type and locality.
 
+## Live Demo
+Try it here: <https://bangladesh-rent-prediction-bhksb3gntmmccjkqtkyczs.streamlit.app>
+
+Enter area, bedrooms, bathrooms, type, city and locality to get an estimated monthly rent, a likely price range, and a chart showing which inputs raised or lowered the estimate.
+
+- **Price range:** two extra models predict the 10th and 90th percentile of rent. The range contains the actual rent for 76% of test listings.
+- **Explanations:** SHAP values show how much each input pushed the prediction up or down, in approximate BDT.
 ## Data
 
 7,557 rent listings from bproperty ([8K+ Property Listing Data in Bangladesh](https://www.kaggle.com/datasets/ijajdatanerd/property-listing-data-in-bangladesh)). After removing duplicates and impossible rows (e.g. 36 bedrooms, 31,500 sqft), 7,448 listings remain, covering 50 localities.
